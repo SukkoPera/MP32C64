@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MP32C64")(type "KiCad")(uri "${KIPRJMOD}/MP32C64.pretty")(options "")(descr ""))
+)

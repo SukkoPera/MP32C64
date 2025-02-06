@@ -1,0 +1,228 @@
+(footprint "C64-Cassette-Port-Female"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "CN*"
+		(at 14.5 -2 0)
+		(layer "F.SilkS")
+		(uuid "35dcd4f5-e575-44ec-92ff-2250a56463a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C64_CASS_PORT"
+		(at 1 2 0)
+		(layer "F.Fab")
+		(uuid "a7227a1c-ff7f-449f-b7f1-dbc18a0d92bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MP32C64:C64-Cassette-Port-Female"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edcf38cd-dbf6-4564-ac01-722e300cbbd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0ad2c83-fbd0-4f7e-b181-278516cd75b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x06, script generated"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33dc7ca3-2be8-4887-bdbb-91d8fecca5ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -20 0)
+		(end -20 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fec233e6-291e-4743-b91d-cdfbc9a7377a")
+	)
+	(fp_line
+		(start -20 0)
+		(end 21 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "122db01c-a2c5-4bb3-9633-96c2a41a67c5")
+	)
+	(fp_line
+		(start -20 6)
+		(end -14 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3bb9e8ed-22eb-4362-943e-236b8321b9d3")
+	)
+	(fp_line
+		(start -14 6)
+		(end -14 12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cb2aaddb-9b49-4143-bead-648e4cb03f1a")
+	)
+	(fp_line
+		(start 15 6)
+		(end 15 12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "925b3743-7231-4bb0-8113-d6f3e3836d2e")
+	)
+	(fp_line
+		(start 15 12)
+		(end -14 12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d6274e55-451f-4c66-9dbe-251c86e998a7")
+	)
+	(fp_line
+		(start 21 0)
+		(end 21 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3300429d-eeb9-4944-9608-603b98b4ad0a")
+	)
+	(fp_line
+		(start 21 6)
+		(end 15 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f9ab1e95-3386-4ac4-b812-202e88553b48")
+	)
+	(pad "1" smd rect
+		(at 10.44 -3)
+		(size 2.2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b25aeae8-8ecb-42dd-ac96-a184c93d59df")
+	)
+	(pad "1" smd rect
+		(at 10.44 -3)
+		(size 2.2 6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "c0a4cc94-c5af-42e7-a131-0efffae84e56")
+	)
+	(pad "2" smd rect
+		(at 6.48 -3)
+		(size 2.2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "50e45ff2-6296-4f5f-bc5c-dd8e97795e41")
+	)
+	(pad "2" smd rect
+		(at 6.48 -3)
+		(size 2.2 6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "a7a684f8-f70a-473e-a097-9b3f44cca569")
+	)
+	(pad "3" smd rect
+		(at 2.52 -3)
+		(size 2.2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0966ad5f-ce83-49da-98d9-1351cde21bd9")
+	)
+	(pad "3" smd rect
+		(at 2.52 -3)
+		(size 2.2 6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "816dd480-128b-4b4d-8e43-565e6349c3c5")
+	)
+	(pad "4" smd rect
+		(at -1.44 -3)
+		(size 2.2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8e3ce844-71d2-4074-b95c-8f6bb0d04782")
+	)
+	(pad "4" smd rect
+		(at -1.44 -3)
+		(size 2.2 6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "c2834aa7-9ab3-4620-bab3-933f5ecc9f14")
+	)
+	(pad "5" smd rect
+		(at -5.4 -3)
+		(size 2.2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d437c70d-aa66-495c-95cc-984fe4a5edb6")
+	)
+	(pad "5" smd rect
+		(at -5.4 -3)
+		(size 2.2 6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "975e4bb4-c73e-47d0-8b8b-f05e65ec7aee")
+	)
+	(pad "6" smd rect
+		(at -9.36 -3)
+		(size 2.2 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ef39431-543f-4b73-b7ac-82d480920649")
+	)
+	(pad "6" smd rect
+		(at -9.36 -3)
+		(size 2.2 6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "a66321a6-d313-402a-92b6-28d0ecd96343")
+	)
+	(model "${KIPRJMOD}/3dModels/C64_TapePort.step"
+		(offset
+			(xyz 12.3 -6.5 -5.25)
+		)
+		(scale
+			(xyz 0.98 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

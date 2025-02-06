@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [],
@@ -216,10 +216,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|2514600|533400|8d93bfba-5cc0-4405-9f3e-bb98d2158473|851e71df-f36d-4050-97a2-34882a08dace|/1bcca956-fe5c-4556-993d-e8e650dac39a|/1bcca956-fe5c-4556-993d-e8e650dac39a|/1bcca956-fe5c-4556-993d-e8e650dac39a",
-      "pin_to_pin|2209800|495300|3b0a4682-12c0-41c4-977e-c880c5fbcbfc|0613a297-8fd4-4c02-ba58-bf69f7b45ef1|/1bcca956-fe5c-4556-993d-e8e650dac39a|/1bcca956-fe5c-4556-993d-e8e650dac39a|/1bcca956-fe5c-4556-993d-e8e650dac39a"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -556,11 +553,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

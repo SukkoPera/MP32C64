@@ -766,173 +766,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1452,6 +1285,286 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PJRAN1X1U01X:PJRAN1X1U01X"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PJRAN1X1U01X"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SWITCHCRAFT_PJRAN1X1U01X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" "Switchcraft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Field6" "13mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Field7" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJRAN1X1U01X_0_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 2.54 5.08) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1987,12 +2100,6 @@
 		(uuid "8f83425f-2165-4390-982b-1551c2471a95")
 	)
 	(junction
-		(at 34.29 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "919c0ce8-cef3-494e-a708-83b1806699e7")
-	)
-	(junction
 		(at 116.84 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2009,6 +2116,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb053477-00f5-48a1-a3d6-a06c75d9916c")
+	)
+	(junction
+		(at 38.1 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce3b3422-233c-4bfc-af5f-1c2e44f27371")
+	)
+	(no_connect
+		(at 27.94 60.96)
+		(uuid "14a47b86-4b90-4dad-ad05-d4c01acd0ba3")
 	)
 	(no_connect
 		(at 251.46 55.88)
@@ -2056,7 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 55.88) (xy 34.29 55.88)
+			(xy 27.94 55.88) (xy 38.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2093,6 +2210,16 @@
 			(type default)
 		)
 		(uuid "15885b6d-42e7-4013-af82-6c9520cbe8ac")
+	)
+	(wire
+		(pts
+			(xy 27.94 63.5) (xy 30.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1825bec8-eb41-4192-b3c8-76612fb9b222")
 	)
 	(wire
 		(pts
@@ -2133,16 +2260,6 @@
 			(type default)
 		)
 		(uuid "213a2d0e-86fb-4a05-a833-101975f35928")
-	)
-	(wire
-		(pts
-			(xy 34.29 55.88) (xy 40.64 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224c1988-6d92-4853-8f8c-46aa09166ad8")
 	)
 	(wire
 		(pts
@@ -2296,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 60.96) (xy 22.86 71.12)
+			(xy 30.48 63.5) (xy 30.48 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 54.61 55.88)
+			(xy 50.8 55.88) (xy 54.61 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 55.88) (xy 34.29 59.69)
+			(xy 38.1 55.88) (xy 38.1 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2493,6 +2610,16 @@
 			(type default)
 		)
 		(uuid "a38600e2-2910-4e4d-9d6a-85da2f633dc7")
+	)
+	(wire
+		(pts
+			(xy 38.1 55.88) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab34565-7253-4e98-b8f7-c65d4155da96")
 	)
 	(wire
 		(pts
@@ -2536,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 67.31) (xy 34.29 71.12)
+			(xy 38.1 67.31) (xy 38.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2729,75 +2856,6 @@
 		(uuid "ea038e96-a3a2-42b9-9cd8-683ddd7026c5")
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 22.86 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00d78a06-8da5-4f37-a100-2b7e18455900")
-		(property "Reference" "J1"
-			(at 23.1774 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 23.1774 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 22.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96e7debd-58cf-4276-b0a6-5267313c9a6d")
-		)
-		(pin "2"
-			(uuid "87321eed-b77e-4fa7-aa33-e481e4e16272")
-		)
-		(instances
-			(project ""
-				(path "/1bcca956-fe5c-4556-993d-e8e650dac39a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4xxx:4069")
 		(at 39.37 167.64 0)
 		(unit 7)
@@ -2816,7 +2874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "CD4069"
 			(at 45.72 168.9099 0)
 			(effects
 				(font
@@ -2921,7 +2979,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "CD4069"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -2957,46 +3015,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06a")
+			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06b")
 		)
 		(pin "5"
-			(uuid "467be524-e131-44e7-bcef-e84f31a035c4")
+			(uuid "467be524-e131-44e7-bcef-e84f31a035c5")
 		)
 		(pin "7"
-			(uuid "871247c3-74e6-46ef-81cf-17a840271c91")
+			(uuid "871247c3-74e6-46ef-81cf-17a840271c92")
 		)
 		(pin "9"
-			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca052")
+			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca053")
 		)
 		(pin "11"
-			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f6")
+			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f7")
 		)
 		(pin "1"
-			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b35")
+			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b36")
 		)
 		(pin "4"
-			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fad")
+			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fae")
 		)
 		(pin "6"
-			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd74")
+			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd75")
 		)
 		(pin "10"
-			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef1")
+			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef2")
 		)
 		(pin "8"
-			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfc")
+			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfd")
 		)
 		(pin "3"
-			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2170")
+			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2171")
 		)
 		(pin "2"
-			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f23")
+			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f24")
 		)
 		(pin "14"
-			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485a")
+			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485b")
 		)
 		(pin "13"
-			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7b")
+			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7c")
 		)
 		(instances
 			(project ""
@@ -3033,7 +3091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 87.63 38.862 90)
 			(effects
 				(font
@@ -3093,7 +3151,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "CD4069"
 			(at 171.45 49.53 0)
 			(effects
 				(font
@@ -3129,46 +3187,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06a")
+			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06c")
 		)
 		(pin "5"
-			(uuid "467be524-e131-44e7-bcef-e84f31a035c4")
+			(uuid "467be524-e131-44e7-bcef-e84f31a035c6")
 		)
 		(pin "7"
-			(uuid "871247c3-74e6-46ef-81cf-17a840271c91")
+			(uuid "871247c3-74e6-46ef-81cf-17a840271c93")
 		)
 		(pin "9"
-			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca052")
+			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca054")
 		)
 		(pin "11"
-			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f6")
+			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f8")
 		)
 		(pin "1"
-			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b35")
+			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b37")
 		)
 		(pin "4"
-			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fad")
+			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9faf")
 		)
 		(pin "6"
-			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd74")
+			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd76")
 		)
 		(pin "10"
-			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef1")
+			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef3")
 		)
 		(pin "8"
-			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfc")
+			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfe")
 		)
 		(pin "3"
-			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2170")
+			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2172")
 		)
 		(pin "2"
-			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f23")
+			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f25")
 		)
 		(pin "14"
-			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485a")
+			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485c")
 		)
 		(pin "13"
-			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7b")
+			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7d")
 		)
 		(instances
 			(project ""
@@ -3181,7 +3239,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 63.5 180)
+		(at 38.1 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3190,7 +3248,7 @@
 		(fields_autoplaced yes)
 		(uuid "252c0a2b-1b7e-4192-9e5f-9ec5daf1283e")
 		(property "Reference" "R1"
-			(at 36.83 62.2299 0)
+			(at 40.64 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +3257,7 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 36.83 64.7699 0)
+			(at 40.64 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,8 +3265,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 36.068 63.5 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 39.878 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 63.5 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3284,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 63.5 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 138.43 38.862 90)
 			(effects
 				(font
@@ -3335,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "CD4069"
 			(at 147.32 49.53 0)
 			(effects
 				(font
@@ -3371,46 +3429,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06a")
+			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06d")
 		)
 		(pin "5"
-			(uuid "467be524-e131-44e7-bcef-e84f31a035c4")
+			(uuid "467be524-e131-44e7-bcef-e84f31a035c7")
 		)
 		(pin "7"
-			(uuid "871247c3-74e6-46ef-81cf-17a840271c91")
+			(uuid "871247c3-74e6-46ef-81cf-17a840271c94")
 		)
 		(pin "9"
-			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca052")
+			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca055")
 		)
 		(pin "11"
-			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f6")
+			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f9")
 		)
 		(pin "1"
-			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b35")
+			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b38")
 		)
 		(pin "4"
-			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fad")
+			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fb0")
 		)
 		(pin "6"
-			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd74")
+			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd77")
 		)
 		(pin "10"
-			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef1")
+			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef4")
 		)
 		(pin "8"
-			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfc")
+			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbff")
 		)
 		(pin "3"
-			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2170")
+			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2173")
 		)
 		(pin "2"
-			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f23")
+			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f26")
 		)
 		(pin "14"
-			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485a")
+			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485d")
 		)
 		(pin "13"
-			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7b")
+			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7e")
 		)
 		(instances
 			(project ""
@@ -3439,7 +3497,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "CD4069"
 			(at 213.36 60.96 0)
 			(effects
 				(font
@@ -3475,46 +3533,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06a")
+			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06e")
 		)
 		(pin "5"
-			(uuid "467be524-e131-44e7-bcef-e84f31a035c4")
+			(uuid "467be524-e131-44e7-bcef-e84f31a035c8")
 		)
 		(pin "7"
-			(uuid "871247c3-74e6-46ef-81cf-17a840271c91")
+			(uuid "871247c3-74e6-46ef-81cf-17a840271c95")
 		)
 		(pin "9"
-			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca052")
+			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca056")
 		)
 		(pin "11"
-			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f6")
+			(uuid "826d46b5-a260-4ff5-a017-af33c202b1fa")
 		)
 		(pin "1"
-			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b35")
+			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b39")
 		)
 		(pin "4"
-			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fad")
+			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fb1")
 		)
 		(pin "6"
-			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd74")
+			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd78")
 		)
 		(pin "10"
-			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef1")
+			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef5")
 		)
 		(pin "8"
-			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfc")
+			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcc00")
 		)
 		(pin "3"
-			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2170")
+			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2174")
 		)
 		(pin "2"
-			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f23")
+			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f27")
 		)
 		(pin "14"
-			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485a")
+			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485e")
 		)
 		(pin "13"
-			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7b")
+			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7f")
 		)
 		(instances
 			(project ""
@@ -3553,7 +3611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 69.088 48.26 90)
 			(effects
 				(font
@@ -3590,6 +3648,79 @@
 			(project "MP32C64"
 				(path "/1bcca956-fe5c-4556-993d-e8e650dac39a"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PJRAN1X1U01X:PJRAN1X1U01X")
+		(at 20.32 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "433e2a1e-2b35-4d7c-ac6f-3e3ae8bf4baa")
+		(property "Reference" "CN1"
+			(at 18.0975 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AUDIO_IN"
+			(at 18.0975 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MP32C64:SWITCHCRAFT_PJRAN1X1U01X"
+			(at 20.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "A"
+			(at 20.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7907a6e-0586-4efd-beb0-33249584db34")
+		)
+		(pin "3"
+			(uuid "e167bcdb-13e7-482d-9ffd-c5337d086355")
+		)
+		(pin "2"
+			(uuid "70c1582b-e583-4c82-ac53-ebe6db63d5b5")
+		)
+		(instances
+			(project ""
+				(path "/1bcca956-fe5c-4556-993d-e8e650dac39a"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -3678,7 +3809,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "SW_INVERT"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -3799,7 +3930,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 71.12 0)
+		(at 30.48 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3808,7 +3939,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f0d31e1-8694-43f7-bda1-6468a2ddf307")
 		(property "Reference" "#PWR01"
-			(at 22.86 77.47 0)
+			(at 30.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 76.2 0)
+			(at 30.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +3956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 71.12 0)
+			(at 30.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +3965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 71.12 0)
+			(at 30.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 71.12 0)
+			(at 30.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 240.538 69.85 90)
 			(effects
 				(font
@@ -4231,7 +4362,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "CD4069"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -4267,46 +4398,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06a")
+			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06f")
 		)
 		(pin "5"
-			(uuid "467be524-e131-44e7-bcef-e84f31a035c4")
+			(uuid "467be524-e131-44e7-bcef-e84f31a035c9")
 		)
 		(pin "7"
-			(uuid "871247c3-74e6-46ef-81cf-17a840271c91")
+			(uuid "871247c3-74e6-46ef-81cf-17a840271c96")
 		)
 		(pin "9"
-			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca052")
+			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca057")
 		)
 		(pin "11"
-			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f6")
+			(uuid "826d46b5-a260-4ff5-a017-af33c202b1fb")
 		)
 		(pin "1"
-			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b35")
+			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b3a")
 		)
 		(pin "4"
-			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fad")
+			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fb2")
 		)
 		(pin "6"
-			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd74")
+			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd79")
 		)
 		(pin "10"
-			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef1")
+			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef6")
 		)
 		(pin "8"
-			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfc")
+			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcc01")
 		)
 		(pin "3"
-			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2170")
+			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2175")
 		)
 		(pin "2"
-			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f23")
+			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f28")
 		)
 		(pin "14"
-			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485a")
+			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485f")
 		)
 		(pin "13"
-			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7b")
+			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f80")
 		)
 		(instances
 			(project ""
@@ -4409,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 58.42 54.102 90)
 			(effects
 				(font
@@ -4453,7 +4584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 71.12 0)
+		(at 38.1 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4462,7 +4593,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae9ee387-f5d0-4010-9e45-8e0f4704a81a")
 		(property "Reference" "#PWR02"
-			(at 34.29 77.47 0)
+			(at 38.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 76.2 0)
+			(at 38.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +4610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +4619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 235.458 69.85 90)
 			(effects
 				(font
@@ -4930,7 +5061,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 55.88 90)
+		(at 46.99 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4939,7 +5070,7 @@
 		(fields_autoplaced yes)
 		(uuid "df3799c1-f8d9-42c2-ae96-54f3cbf18beb")
 		(property "Reference" "C1"
-			(at 44.45 48.26 90)
+			(at 46.99 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +5078,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 44.45 50.8 90)
+			(at 46.99 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +5086,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
-			(at 48.26 54.9148 0)
+			(at 50.8 54.9148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +5095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 55.88 0)
+			(at 46.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +5104,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 55.88 0)
+			(at 46.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5211,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "CD4069"
 			(at 128.27 49.53 0)
 			(effects
 				(font
@@ -5116,46 +5247,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a06a")
+			(uuid "6822f508-294c-4c3b-aa97-43ccd9e7a070")
 		)
 		(pin "5"
-			(uuid "467be524-e131-44e7-bcef-e84f31a035c4")
+			(uuid "467be524-e131-44e7-bcef-e84f31a035ca")
 		)
 		(pin "7"
-			(uuid "871247c3-74e6-46ef-81cf-17a840271c91")
+			(uuid "871247c3-74e6-46ef-81cf-17a840271c97")
 		)
 		(pin "9"
-			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca052")
+			(uuid "f842bc60-d5a2-4f6c-90b7-7ac7220ca058")
 		)
 		(pin "11"
-			(uuid "826d46b5-a260-4ff5-a017-af33c202b1f6")
+			(uuid "826d46b5-a260-4ff5-a017-af33c202b1fc")
 		)
 		(pin "1"
-			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b35")
+			(uuid "6a39e2c5-fd74-4818-ade9-e8aa49086b3b")
 		)
 		(pin "4"
-			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fad")
+			(uuid "d455fd02-7c18-4a05-8ad9-e7c7326b9fb3")
 		)
 		(pin "6"
-			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd74")
+			(uuid "0b01ac52-226e-42fb-9f22-c55b343ffd7a")
 		)
 		(pin "10"
-			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef1")
+			(uuid "0613a297-8fd4-4c02-ba58-bf69f7b45ef7")
 		)
 		(pin "8"
-			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcbfc")
+			(uuid "3b0a4682-12c0-41c4-977e-c880c5fbcc02")
 		)
 		(pin "3"
-			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2170")
+			(uuid "de5e326f-256f-43f6-9c2d-1a0ab23f2176")
 		)
 		(pin "2"
-			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f23")
+			(uuid "ea3e831b-6610-4e7f-96df-8e3bef1d7f29")
 		)
 		(pin "14"
-			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e03485a")
+			(uuid "8b497c81-b1a4-4d99-8ae2-b68d4e034860")
 		)
 		(pin "13"
-			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f7b")
+			(uuid "a7bfd107-532b-4695-bd32-e446b4cc5f81")
 		)
 		(instances
 			(project ""
@@ -5258,7 +5389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 109.22 54.102 90)
 			(effects
 				(font

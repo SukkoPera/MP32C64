@@ -233,6 +233,46 @@
 		(layer "Dwgs.User")
 		(uuid "cf6ea383-0456-40ad-95a4-cbbc5703a857")
 	)
+	(fp_line
+		(start -6.3 -7.7)
+		(end -6.3 4.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "57ad1ae6-167f-4365-8f80-c74e1ccc40b3")
+	)
+	(fp_line
+		(start -6.3 4.6)
+		(end 6.3 4.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7afcf4f3-d392-4162-830e-ed4b50c83db1")
+	)
+	(fp_line
+		(start 6.3 -7.7)
+		(end -6.3 -7.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "973ed65e-7625-4b30-bf23-04ff60217766")
+	)
+	(fp_line
+		(start 6.3 4.6)
+		(end 6.3 -7.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "95f920fe-7431-486f-b003-f102d516de04")
+	)
 	(fp_text user "PCB EDGE"
 		(at -11.8 4.5 0)
 		(layer "Dwgs.User")

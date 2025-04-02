@@ -5696,21 +5696,21 @@
 		(fields_autoplaced yes)
 		(uuid "cc430a57-a62d-474b-bb87-fa197d57be0a")
 		(property "Reference" "C3"
-			(at 30.48 167.6399 0)
+			(at 22.86 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 30.48 170.1799 0)
+			(at 22.86 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"

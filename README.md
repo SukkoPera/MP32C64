@@ -10,6 +10,8 @@ It was originally developed by the Spanish C64 freak Kopsec, probably inspired b
 
 As the name suggests, beside Audio CDs, MP3 files will also work, so a smartphone (provided that you have an old model with an audio jack...) or any other audio player can be used.
 
+Another similar project, which works just as well as this one, is [DatassetteAudioAdapter](https://github.com/SukkoPera/DatassetteAudioAdapter).
+
 PRG files can be converted to audio using the [WAV-PRG](https://wav-prg.sourceforge.io/) software suite.
 
 ## Assembly

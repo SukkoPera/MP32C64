@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MP32C64")
-		(date "2025-03-25")
+		(date "2025-06-30")
 		(rev "1git")
 		(company "SukkoPera")
 		(comment 1 "Audio Device to C64 Datassette Adapter")
@@ -5299,7 +5299,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "6.8k"
 			(at 58.42 52.07 90)
 			(effects
 				(font
@@ -6143,7 +6143,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "6.8k"
 			(at 109.22 52.07 90)
 			(effects
 				(font

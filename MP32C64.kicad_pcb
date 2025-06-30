@@ -1770,7 +1770,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "6.8k"
 			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "7510f7b7-c9e6-4a61-8fd4-e3e93633d136")
@@ -4408,7 +4408,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "6.8k"
 			(at 5.08 0 180)
 			(layer "F.SilkS")
 			(uuid "d749c6fe-669a-4e81-acd5-6874b6eacc23")

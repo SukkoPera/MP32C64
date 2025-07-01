@@ -10,11 +10,12 @@ It was originally developed by the Spanish C64 freak Kopsec, probably inspired b
 
 As the name suggests, beside Audio CDs, MP3 files will also work, so a smartphone (provided that you have an old model with an audio jack...) or any other audio player can be used.
 
-Note that this adapter only works for playing back audio files, there is no support for recording them.
-
 Another similar project, which works just as well as this one, is [DatassetteAudioAdapter](https://github.com/SukkoPera/DatassetteAudioAdapter).
 
 PRG files can be converted to audio using the [WAV-PRG](https://wav-prg.sourceforge.io/) software suite.
+
+> [!IMPORTANT]
+> This adapter only works for playing back audio files, there is no support for recording.
 
 ## Assembly
 The original adapter used 6.8k and 68k resistors, but I didn't have those values when I built the first prototype, so I used 4.7k and 47k and they worked well. Probably 10k and 100k would also work, so give these a try before buying new resistors for the purpose.

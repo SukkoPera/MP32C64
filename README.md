@@ -10,6 +10,8 @@ It was originally developed by the Spanish C64 freak Kopsec, probably inspired b
 
 As the name suggests, beside Audio CDs, MP3 files will also work, so a smartphone (provided that you have an old model with an audio jack...) or any other audio player can be used.
 
+Note that this adapter only works for playing back audio files, there is no support for recording them.
+
 Another similar project, which works just as well as this one, is [DatassetteAudioAdapter](https://github.com/SukkoPera/DatassetteAudioAdapter).
 
 PRG files can be converted to audio using the [WAV-PRG](https://wav-prg.sourceforge.io/) software suite.
@@ -22,9 +24,11 @@ The adapter can either be built with a PJRAN1X1U01X RCA/Cinch connector or with 
 ## Usage
 The first thing to do is to set the playback volume: start with 0 and gradually increase it until the *Signal* LED is constantly on. You can still go up a few ticks from there, experiment a bit until you have successful loads.
 
-Second thing is motor control: you have probably noticed that the computer is able to start and stop the Datassette motor at will, but of course it cannot stop an MP3 or CD player. Therefore playback control will be on you: keep an eye on the *Motor* LED: you will have to pause the playback as soon as possible whenever it goes off, and then restart it when it lights up again (for the latter you don't need to rush). This is particularly important when the "FOUND XXX" screen shows up in BASIC, as if you leave the player running, it might run past the data start while the computer is still waiting to start the loading. You can also press the space bar at this point, as it will abort the wait and start the loading immediately.
+Second thing is motor control: you have probably noticed that the computer is able to start and stop the Datassette motor at will, but of course it cannot stop an MP3 or CD player, therefore playback control will be on you: keep an eye on the *Motor* LED and pause the playback as soon as possible whenever it goes off, then restart it when it lights up again (for the latter you don't need to rush). This is particularly important when the "FOUND XXX" screen shows up in BASIC, as if you leave the player running, it might run past the data start while the computer is still waiting to start the loading. You can also press the space bar at this point, as it will abort the wait and start the loading immediately.
 
 Also be aware of the *NORM/INV* jumper: this should stay in the *NORM* position for the vast majority of files. In case you know you have one that was encoded with inverse polarity, or if something just doesn't load, you can try the *INV* setting.
+
+One last thing to keep in mind is that the adapter always behaves as if the *Play* button was pressed. Therefore, if a game explicitly asks to stop the Datassette, you will have to unplug the adapter, which is not very nice, so I don't take any responsibility for anything that might happen.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/MP32C64/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.

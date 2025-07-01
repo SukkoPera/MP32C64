@@ -20,7 +20,11 @@ The original adapter used 6.8k and 68k resistors, but I didn't have those values
 The adapter can either be built with a PJRAN1X1U01X RCA/Cinch connector or with a SJ1-3525N 3.5" headphone jack connector, according to your preference. Note that the RCA connector will point towards the back, while the headphone jack will point to the right.
 
 ## Usage
-Usage should be straightforward. The only thing to be careful with is the playback volume: start with 0 and gradually increase it until the Signal LED is constantly on. You can still go up a few ticks from there, experiment a bit until you have successful loads.
+The first thing to do is to set the playback volume: start with 0 and gradually increase it until the *Signal* LED is constantly on. You can still go up a few ticks from there, experiment a bit until you have successful loads.
+
+Second thing is motor control: you have probably noticed that the computer is able to start and stop the Datassette motor at will, but of course it cannot stop an MP3 or CD player. Therefore playback control will be on you: keep an eye on the *Motor* LED: you will have to pause the playback as soon as possible whenever it goes off, and then restart it when it lights up again (for the latter you don't need to rush). This is particularly important when the "FOUND XXX" screen shows up in BASIC, as if you leave the player running, it might run past the data start while the computer is still waiting to start the loading. You can also press the space bar at this point, as it will abort the wait and start the loading immediately.
+
+Also be aware of the *NORM/INV* jumper: this should stay in the *NORM* position for the vast majority of files. In case you know you have one that was encoded with inverse polarity, or if something just doesn't load, you can try the *INV* setting.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/MP32C64/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
